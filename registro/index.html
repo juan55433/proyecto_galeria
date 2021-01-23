@@ -4,7 +4,7 @@
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Login</title>
+	<title>Registro</title>
 	<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css?rnd=243">
     
@@ -12,14 +12,47 @@
 </head>
 <body>
     <div class="wrapper">
-        <form id="form-ing" form action="script.php" novalidate method="post" class="container">
-            <input type="text" class="form-control" name="user" > <br>
-            <input type="password" class="form-control" name="password" ><br>
-            <input type="submit" value="ingresar" class="button">
+        <h1 class="container">REGISTRO</h1>
+        <form id="form-ing" form action="script.php" novalidate method="post" class="container" class ="form-horizontal">
+            <div class="form-group">
+                <label for="user" class="col-lg-5 control-label">Ingrese un usuario.</label> 
+                <div class ="col-lg-11">
+                    <input type="user" class="form-control" id="user"
+                    placeholder="User"> 
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="user" class="col-lg-5 control-label">Ingrese una contraseña.</label> 
+                <div class ="col-lg-11">
+                    <input type="password" class="form-control" id="contraseña"
+                    placeholder="Contraseña"> 
+                </div>
+            </div>
+            <div class ="form-group">
+                <label for="user" class="col-lg-5 control-label">Repita su contraseña.</label> 
+                <div class ="col-lg-11">
+                    <input type="password" class="form-control" id="contraseña"
+                    placeholder="Contraseña">  
+                </div>
+            </div>
+            <div class ="form-group">
+                <label for="user" class="col-lg-2 control-label">Ingrese su correo</label> 
+                <div class ="col-lg-11">
+                    <input type="email" class="form-control" id="email"
+                    placeholder="e-Mail"> 
+                </div>
+            </div>
+            <div class ="form-group">
+                <label for="user" class="col-lg-5 control-label">Ingrese su número de teléfono</label> 
+                <div class ="col-lg-11">
+                    <input type="number" class="form-control" id="number"
+                    placeholder="Número de teléfono"> <br>
+                </div>
+            </div>
+            <div class ="button">
+                <input type="submit" value="Ingresar" class="button">
+            </div>
         </form>
-    </div>
-    <div id="form-login">
-        
     </div>
 </body>
 </html>	

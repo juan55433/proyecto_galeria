@@ -6,6 +6,10 @@ body{
 
 form{
 	display:inline-block;
+    color:whitesmoke;
+    outline-color: grey;
+    text-align: left;
+  
 }
 
 .title {
@@ -16,8 +20,8 @@ form{
 .button{
     font-size:20px; 
     font-family:cursive;
-    background-color:grey
-}
+    text-align: center;  
+}   
 .wrapper {
   background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
   color: #eee;
