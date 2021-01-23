@@ -15,13 +15,17 @@ form{
 .title {
   font-size: 5.6rem;
   font-family: 'Lobster', cursive;
+  width: 300px;
+  padding: 20px 0;
+  margin: 0 auto;
 }
-
 .button{
     font-size:20px; 
     font-family:cursive;
     text-align: center;  
-}   
+}
+
+
 .wrapper {
   background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
   color: #eee;
@@ -34,7 +38,6 @@ form{
   perspective-origin: 50% 50%;
   animation: animation 100s linear infinite;
 }
-
 @keyframes animation {
    100%{
     background-position:0px -3000px;
