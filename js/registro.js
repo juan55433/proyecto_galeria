@@ -14,7 +14,18 @@ const CrearUsuario = (usuario) => {
     return item;
 }
 
-let userprueba = CrearUsuario('nuevoUsuario');
-let userpruebab = CrearUsuario('nuevoUsuarioo');
-console.log(userprueba);
-console.log(userpruebab);
+//EventListener
+
+formregisterUI.addEventListener('submit',(e) =>{
+    e.preventDefault();
+    let userUI = document.querySelector('#user').value;
+    let pwUI = document.querySelector('#password').value;
+    let pwrpUI = document.querySelector('#password-repeat').value;
+    let emailUI = document.querySelector('#email').value;
+    let numberUI = document.querySelector('#number').value;
+    console.log(userUI);
+    console.log(pwUI);
+    console.log(pwrpUI);
+    console.log(emailUI);
+    console.log(numberUI);
+})
