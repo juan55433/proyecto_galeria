@@ -17,6 +17,7 @@ const CrearUsuario = (user, pw, pwrp, email, number) => {
 const GuardarDB = () =>{
     localStorage.setItem('registro',JSON.stringify(arrayRegistro));
 }
+
 //EventListener
 
 formregisterUI.addEventListener('submit',(e) =>{
@@ -27,9 +28,18 @@ formregisterUI.addEventListener('submit',(e) =>{
     let pwrpUI = document.querySelector('#password-repeat').value;
     let emailUI = document.querySelector('#email').value;
     let numberUI = document.querySelector('#number').value;
-    
-    CrearUsuario(userUI, pwUI, pwrpUI, emailUI,numberUI);
-    GuardarDB();
-    formregisterUI.reset(); 
-    
+    if(userUI.length == 0 || pwUI.length == 0 || pwrpUI.length == 0 || emailUI.length == 0 || isNaN(numberUI)) 
+    {
+        window.alert("Todos los caracteres son obligatorios!");
+        formregisterUI.reset(); 
+    }
+    if(pwUI != pwrpUI){
+        window.alert("Las contraseñas deben coincidir");
+    }
+    else{
+        CrearUsuario(userUI, pwUI, pwrpUI, emailUI,numberUI);
+        GuardarDB();
+        formregisterUI.reset(); 
+    }
 });
+

@@ -7,7 +7,7 @@ const VerLogin = ()  =>{
     }
     else{
         arrayRegistro.forEach(Element =>{
-           console.log(element); 
+           console.log(element);     
         });
     }
 }
