@@ -1,8 +1,16 @@
-window.onload = init;
+const button = document.querySelector('button');
+const popup = document.querySelector('.popup-wrapper');
+const close = document.querySelector('.popup-close');
+button.addEventListener('click', () => {
+    popup.style.display = 'block';
+});
 
-function init(){ //función con nombre
-
-}
-window.onload = ()=>{ //función anónima
-	alert("prueba!");
-}
+close.addEventListener('click', () => {
+    popup.style.display = 'none';
+});
+popup.addEventListener('click', e => {
+    // console.log(e);
+    if(e.target.className === 'popup-wrapper') {
+        popup.style.display = 'none';
+    }
+});
