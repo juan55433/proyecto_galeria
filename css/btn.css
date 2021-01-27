@@ -2,14 +2,14 @@
     display:block;
     margin: 20px auto;
     background-color:dimgrey;
-    color:white;
-    border:0;
-    padding: 6px 10px;
+    color:grey;
+    border:1;
+    padding: 10px 10px;
     cursor:pointer; 
 }
 
 button:hover{
-    background:palevioletred;
+    background:grey;
     transition: all 0.2s;
 }
 .popup-wrapper {
@@ -27,15 +27,15 @@ button:hover{
     text-align: center;
     width: 100%;
     max-width: 300px;
-    background: white;
+    background: grey;
     margin: 10% auto;
     padding: 20px;
     position: relative;
 }
  
 .popup a {
-    background: salmon;
-    color: white;
+    background: white;
+    color: black;
     text-decoration: none;  
     padding: 6px 10px;
     margin: 30px auto;
@@ -44,8 +44,8 @@ button:hover{
 }
  
 .popup a:hover {
-    background: palevioletred;
-    transition: all 0.2s;
+    background: grey;
+    transition: grey;
 }
  
 .popup-close {
