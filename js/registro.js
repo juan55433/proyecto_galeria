@@ -18,7 +18,7 @@ const GuardarDB = () =>{
     localStorage.setItem('registro',JSON.stringify(arrayRegistro));
 }
 
-//EventListener
+//EventListener     
 
 formregisterUI.addEventListener('submit',(e) =>{
     e.preventDefault();
