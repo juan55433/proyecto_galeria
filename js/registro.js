@@ -15,7 +15,7 @@ const CrearUsuario = (user, pw, pwrp, email, number) => {
 }
 
 const GuardarDB = () =>{
-    
+    localStorage.setItem('registro',JSON.stringify(arrayRegistro));
 }
 //EventListener
 
@@ -29,6 +29,7 @@ formregisterUI.addEventListener('submit',(e) =>{
     let numberUI = document.querySelector('#number').value;
     
     CrearUsuario(userUI, pwUI, pwrpUI, emailUI,numberUI);
+    GuardarDB();
     formregisterUI.reset(); 
     
 });
