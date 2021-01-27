@@ -1,7 +1,7 @@
 //variables globales
 const formregisterUI = document.querySelector('#form-ing');
 let arrayRegistro = [];
-//funciones
+
 const CrearUsuario = (user, pw, pwrp, email, number) => {
     let item = {
         user: user,
@@ -43,4 +43,3 @@ formregisterUI.addEventListener('submit',(e) =>{
         
     }
 });
-
