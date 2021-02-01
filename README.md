@@ -3,7 +3,7 @@ _Página web acerca de las muchas lunas de saturno._
 
 ## Construido con 🛠️
 
-* [Laragon](https://laragon.org) - Con este programa se manejó la administración de la página.
+* [Laragon](https://laragon.org) - Con este programa se maneja la administración de la página.
 * [Brackets](http://brackets.io) - Editor de texto, sencillo y dinámico
 * [Bootstrap 4](https://getbootstrap.com) - Hojas de estilo
 * [Vanilla JavaScript](https://pristine.js.org/demo.html) - JavaScript
