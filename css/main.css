@@ -2,17 +2,17 @@
 body{
 	background: #fff;  
 	text-align: center;
+    
 }
-form{
-	display:inline-block;
-    color:whitesmoke;
-    outline-color: grey;
-    text-align: left;
-  
-}
-.navbar-logo {
-  width: 200px;
-}
+nav ul li{
+         float: left;
+         margin-top: 20px;
+     }
+ nav li a{
+ text-decoration: none;
+ font-family: century gothic;
+ color: #000;
+ }
 .header {
   background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
   background-size: cover;
@@ -24,15 +24,12 @@ form{
 }
 .header .navbar {
   background-color: transparent !important;
+
 }
+
 .title {
   font-size: 5.6rem;
   font-family: 'Lobster', cursive;
-}
-.button{
-    font-size:20px; 
-    font-family:cursive;
-    text-align:center;
 }
 .wrapper {
   background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
@@ -85,7 +82,7 @@ form{
         transition: all 500ms ease-out;
         opacity: 0;
         visibility: hidden;
-       text-align: center;
+        text-align: center;
     }
     .contenedor figure:hover > .capa {
         opacity: 1;
