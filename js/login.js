@@ -10,7 +10,7 @@ formloginUI.addEventListener('submit',(e) =>{
     }
     else if(validacion.includes(userUI) && validacion.includes(pwUI)){
         formloginUI.reset(); 
-        window.open("index.html", "_self");  
+        window.open("galeria.html", "_self");  
     }
     else{
         window.alert("Credenciales incorrectas!");
