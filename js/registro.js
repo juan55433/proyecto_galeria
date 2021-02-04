@@ -1,6 +1,6 @@
 //Funcion onload
 window.onload = inicio;
-
+        
 function inicio(){
     const formregisterUI = document.querySelector('#form-ing');
     let arrayRegistro = [];

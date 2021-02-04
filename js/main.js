@@ -18,4 +18,4 @@ function inicio(){
     })
 }
 window.onload = inicio;
-inicio();
+
