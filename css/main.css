@@ -2,7 +2,6 @@
 body{
 	background: #fff;  
 	text-align: center;
-    
 }
 nav ul li{
          float: left;
@@ -17,16 +16,12 @@ nav ul li{
   background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
   background-size: cover;
   min-height: 5vh;
-  animation: animation 100s linear infinite;      
-    perspective-origin: 50% 50%;
-    display: flex;
-    
+  animation: animation 100s linear infinite;   
 }
 .header .navbar {
   background-color: transparent !important;
 
 }
-
 .title {
   font-size: 5.6rem;
   font-family: 'Lobster', cursive;
@@ -61,9 +56,9 @@ nav ul li{
     }
     .contenedor figure{
        position:relative;
-        height: 250px;
+        height: 350px;
         cursor: pointer;
-        width: 350px;
+        width: 450px;
         overflow: hidden;
         border-radius: 6px;
         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
@@ -97,14 +92,14 @@ nav ul li{
     }
     .contenedor figure .capa h3{
         color: #fff;
-        font-weight: 400;
+        font-weight: 500;
         margin-bottom: 120px;
         transition: all 500ms ease-out;
          margin-top: 30px;
     }
     .contenedor figure .capa p{
         color: #fff;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 1.5;
         width: 100%;
         max-width: 220px;
